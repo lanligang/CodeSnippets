@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>AnNiu</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#name#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+&lt;#name#&gt;.backgroundColor = [UIColor colorWithHexString:@"&lt;#colorString#&gt;"];
+&lt;#name#&gt;.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+[&lt;#name#&gt; setTitleColor:[UIColor colorWithHexString:@"&lt;#colorString#&gt;"] forState:UIControlStateNormal];
+[&lt;#name#&gt; setTitle:@"&lt;#buttontitle#&gt;" forState:UIControlStateNormal];
+[&lt;#name#&gt; setImage:[UIImage imageNamed:@"&lt;#imgeName#&gt;"] forState:UIControlStateNormal];
+&lt;#name#&gt;.layer.cornerRadius = &lt;#radius#&gt;;
+&lt;#name#&gt;.layer.masksToBounds = YES;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CEEC8842-8D59-4350-ACE9-DE9DA7DA976C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>按钮</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
